@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1c</title>
+    <link rel="stylesheet" href="css/rubik/rubik.css">
+    <script type="text/javascript" src="/eel.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="box">
+    <div class="current">
+        <div class="tab">Номенклатура</div>
+        <div class="current-account">
+            <div class="account-info">
+                <div class="account_name">Иванов Иван Иванович</div>
+            </div>
+            <div class="account-logo">
+                <img src="assets/logo.png" alt="Logo">
+            </div>
+        </div>
+    </div>
+
+    <!-- Nav -->
+    <aside class="sidebar">
+        <div class="sidebar-tab active" id="goods"><div class="sidebar-tab_el">Номенклатура</div></div>
+        <div class="sidebar-tab" id="stations"><div class="sidebar-tab_el">Станции</div></div>
+        <div class="sidebar-tab" id="users"><div class="sidebar-tab_el">Пользователи</div></div>
+        <div class="sidebar-tab" id="prices"><div class="sidebar-tab_el">Тарифы</div></div>
+        <div class="sidebar-tab" id="payment"><div class="sidebar-tab_el">Оплата</div></div>
+        <div class="sidebar-tab" id="story"><div class="sidebar-tab_el">Движения</div></div>
+    </aside>
+
+    <!-- Buttons -->
+    <div class="buttons">
+        <div class="button button-add">Добавить</div>
+        <div class="button button-start">Вывести из эксплуатации</div>
+        <div class="button button-update">Обновить</div>
+        <div class="button button-delete">Удалить</div>
+    </div>
+
+    <!-- Forms -->
+    <div class="form">
+        <form class="input-data">
+          <div class="form-title">Отредактируйте старые данные или введите новые</div>
+          <div class="form-body">
+          </div>
+          <div class="rule"></div>
+          <div class="form-footer">
+            <a class="form-but submit">Подтвердить<span class="fa fa-thumbs-o-up"></span></a>
+            <a class="form-but cancel">Отмена<span class="fa fa-ban"></span></a>
+          </div>
+        </form>
+      </div>
+    
+      <div class="form-delete">
+        <form class="input-data">
+          <div class="form-title">Удалите данные</div>
+          <div class="form-body_delete">
+            <div class="row">
+              <input type="text" placeholder="Id" class="input delete_input">
+            </div>
+          </div>
+          <div class="rule"></div>
+          <div class="form-footer">
+            <a class="form-but submit_delete">Подтвердить<span class="fa fa-thumbs-o-up"></span></a>
+            <a class="form-but cancel-delete">Отмена<span class="fa fa-ban"></span></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="form-expl">
+        <form class="input-data">
+          <div class="form-title">Вывести из эксплуатации</div>
+          <div class="form-body_expl">
+            <div class="row">
+              <input type="text" placeholder="Id" class="input expl_input">
+            </div>
+          </div>
+          <div class="rule"></div>
+          <div class="form-footer">
+            <a class="form-but submit_expl">Подтвердить<span class="fa fa-thumbs-o-up"></span></a>
+            <a class="form-but cancel_expl">Отмена<span class="fa fa-ban"></span></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="form-update">
+        <form class="input-data">
+          <div class="form-title">Обновить тариф</div>
+          <div class="form-body_update">
+          </div>
+          <div class="rule"></div>
+          <div class="form-footer">
+            <a class="form-but submit_update">Подтвердить<span class="fa fa-thumbs-o-up"></span></a>
+            <a class="form-but cancel_update">Отмена<span class="fa fa-ban"></span></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="form-pay">
+        <form class="input-data">
+          <div class="form-title">Оплатить</div>
+          <div class="form-body_pay">
+          </div>
+          <div class="rule"></div>
+          <div class="form-footer">
+            <a class="form-but submit_pay">Подтвердить<span class="fa fa-thumbs-o-up"></span></a>
+            <a class="form-but cancel_pay">Отмена<span class="fa fa-ban"></span></a>
+          </div>
+        </form>
+      </div>
+
+    <!-- Table -->
+    <div class="table">
+      <table>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+</div>
+<script src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
